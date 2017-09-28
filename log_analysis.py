@@ -74,9 +74,8 @@ def findDaysWithErrors(percent):
 
 def printDaysWithErrors(errDays):
     for errDay in errDays:
-        print errDay[0].strftime('%B %d, %Y') +
-        " -- " +
-        str(round(errDay[1], 1)) + "% errors"
+        print (errDay[0].strftime('%B %d, %Y') + " -- " +
+        str(round(errDay[1], 1)) + "% errors")
 
 
 if __name__ == '__main__':

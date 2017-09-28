@@ -5,7 +5,7 @@ database to give a report on a few FAQs
 To run, enter command:
  `python log_analysis.py`
 
-The results will be printed to the console. No views are used.
+The results will be printed to the console. No views are used. An example of the output is provided in output.txt.
 
 **_What are the most popular three articles of all time?_**
 Method:
