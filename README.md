@@ -2,8 +2,20 @@
 Command line application that interfaces with the news
 database to give a report on a few FAQs
 
-To run, enter command:
- `python log_analysis.py`
+Ensure your environment has the following software installed:
+ - Python 3
+ - PostgreSQL
+ - psycopg2 library
+
+An environment with Virtual Box (https://www.virtualbox.org) and Vagrant (https://www.vagrantup.com) were used in development, with the VagrantFile taken from here: https://github.com/udacity/fullstack-nanodegree-vm
+
+The newsdata.sql file can be found here: https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
+
+The sql data is imported with this command:
+`psql -d news -f newsdata.sql`
+
+To run the python code, enter command:
+`python log_analysis.py`
 
 The results will be printed to the console. No views are used. An example of the output is provided in output.txt.
 
